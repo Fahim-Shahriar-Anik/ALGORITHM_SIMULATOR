@@ -25,7 +25,7 @@ public class Main extends Application {
         Parent root=loader.load();
 
         //loading controller class
-        homeController controller=loader.getController();
+        sample.homeController controller=loader.getController();
         controller.setMain(this);
 
         //set the primary stage

@@ -2,7 +2,7 @@ package sample;
 
 public class selectionThread extends Thread {
     int[] array;
-    SortController controller;
+    sample.SortController controller;
     Thread selection;
     int sSortedPart=0;
 
